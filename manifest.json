@@ -6,7 +6,7 @@
   "description": "firefox URL blocker",
   "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["ext.js"]
   }
 
 }

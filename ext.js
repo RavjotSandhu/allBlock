@@ -6,6 +6,7 @@ browser.webRequest.onBeforeRequest.addListener(
     {urls: 
       ["*://*.doubleclick.net/*",
       "*://*.googleadservices.com/*",
+      "*://.google-analytics.com/analytics.js*",
       "*://*.googlesyndication.com/*",
       "*://*.moat.com/*"]
     },
